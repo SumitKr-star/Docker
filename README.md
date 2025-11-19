@@ -1,5 +1,6 @@
 # Docker
 <br>
+
 ```
 sudo apt update -y
 sudo apt install ca-certificates curl gnupg -y
@@ -17,4 +18,10 @@ sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker $USER
 
+```
+<br>
+
+
+```
+docker run hello-world
 ```
